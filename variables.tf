@@ -44,7 +44,7 @@ variable "image_name" {
 }
 
 variable "port" {
-  type         = string
+  type         = number
   description  = "Port on which the app listens"
 }
 
